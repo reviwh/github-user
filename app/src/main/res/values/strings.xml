@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GitHub User</string>
+    <string name="searchbar_hint">Who do you want to search for?</string>
+    <string name="username" />
+    <string name="name" />
+    <string name="followers" />
+    <string name="following" />
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="app_icon">App Icon</string>
+    <string name="user_avatar_image">User Avatar Image</string>
+    <string name="sum_followers">%d Followers</string>
+    <string name="sum_following">%d Following</string>
+    <string name="users_not_found">User not found.</string>
+    <string name="have_no">%1$s have no %2$s.</string>
+    <string name="add_user_to_favorite">Add user to favorite.</string>
+    <string name="added_to_favorite">%s added to favorite.</string>
+    <string name="removed_to_favorite">%s removed from favorite.</string>
+    <string name="your_favorite_user_does_not_exist">Your favorite user doesn\'t exist.</string>
+    <string name="favorite_user">Favorite User</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="github_search_user">Search User</string>
+    <string name="favorite_users">Favorite Users</string>
+    <string name="user_details">User Details</string>
+</resources>

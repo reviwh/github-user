@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GitHubUser" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="fontFamily">@font/mona_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Theme.GitHubUser" parent="Base.Theme.GitHubUser" />
+    <style name="ActionBar" parent="Theme.GitHubUser">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextAppearance">@style/ActionBar.Title</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+    <style name="ActionBar.Title" parent="Theme.GitHubUser">
+        <item name="fontFamily">@font/mona_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="Text" parent="Theme.GitHubUser">
+        <item name="fontFamily">@font/mona_regular</item>
+    </style>
+    <style name="Text.Italic">
+        <item name="fontFamily">@font/mona_italic</item>
+    </style>
+    <style name="Text.Bold">
+        <item name="fontFamily">@font/mona_bold</item>
+    </style>
+</resources>
